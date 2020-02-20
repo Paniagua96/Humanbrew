@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+- phpMyAdmin XML Dump
+- version 5.0.1
+- https://www.phpmyadmin.net
+-
+- Servidor: 127.0.0.1
+- Tiempo de generación: 20-02-2020 a las 17:41:23
+- Versión del servidor: 10.4.11-MariaDB
+- Versión de PHP: 7.4.2
+-->
+
+<pma_xml_export version="1.0" xmlns:pma="https://www.phpmyadmin.net/some_doc_url/">
+    <!--
+    - Structure schemas
+    -->
+    <pma:structure_schemas>
+        <pma:database name="humanbrew" collation="utf8mb4_general_ci" charset="utf8mb4">
+            <pma:table name="employeeregistration">
+                CREATE TABLE `employeeregistration` (
+                  `Id_employee` int(10) NOT NULL AUTO_INCREMENT,
+                  `Nombre1` varchar(50) NOT NULL,
+                  `Nombre2` varchar(50) NOT NULL,
+                  `ApellidoPaterno` varchar(50) NOT NULL,
+                  `ApellidoMaterno` varchar(50) NOT NULL,
+                  `CURP` varchar(18) NOT NULL,
+                  `NSS` int(11) NOT NULL,
+                  `FechaInicio` date NOT NULL,
+                  `FechaFinal` date NOT NULL,
+                  `FechaNacimiento` date NOT NULL,
+                  `LN_Ciudad` varchar(50) NOT NULL,
+                  `LN_Estado` varchar(50) NOT NULL,
+                  `LN_Pais` varchar(50) NOT NULL,
+                  `D_Calle` varchar(50) NOT NULL,
+                  `D_NoInterior` varchar(50) NOT NULL,
+                  `D_NoExterior` varchar(50) NOT NULL,
+                  `D_Colonia` varchar(50) NOT NULL,
+                  `D_CP` int(10) NOT NULL,
+                  `D_Ciudad` varchar(50) NOT NULL,
+                  `D_Estado` varchar(50) NOT NULL,
+                  `D_Pais` varchar(50) NOT NULL,
+                  PRIMARY KEY (`Id_employee`)
+                ) ENGINE=InnoDB AUTO_INCREMENT=14 DEFAULT CHARSET=utf8mb4;
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+
+    <!--
+    - Base de datos: 'humanbrew'
+    -->
+    <database name="humanbrew">
+        <!-- Tabla employeeregistration -->
+        <table name="employeeregistration">
+            <column name="Id_employee">10</column>
+            <column name="Nombre1">Diego</column>
+            <column name="Nombre2">Diego</column>
+            <column name="ApellidoPaterno">Paniagua</column>
+            <column name="ApellidoMaterno">Morales</column>
+            <column name="CURP">AAAAAA12125454</column>
+            <column name="NSS">879456</column>
+            <column name="FechaInicio">2020-02-01</column>
+            <column name="FechaFinal">2020-02-07</column>
+            <column name="FechaNacimiento">2020-02-10</column>
+            <column name="LN_Ciudad">Queretaro</column>
+            <column name="LN_Estado">Queretaro</column>
+            <column name="LN_Pais">México</column>
+            <column name="D_Calle">callepPrueba</column>
+            <column name="D_NoInterior">42</column>
+            <column name="D_NoExterior">10</column>
+            <column name="D_Colonia">Colinas</column>
+            <column name="D_CP">76900</column>
+            <column name="D_Ciudad">Queretaro</column>
+            <column name="D_Estado">Queretaro</column>
+            <column name="D_Pais">México</column>
+        </table>
+        <table name="employeeregistration">
+            <column name="Id_employee">11</column>
+            <column name="Nombre1">Diego</column>
+            <column name="Nombre2">Diego</column>
+            <column name="ApellidoPaterno">Paniagua</column>
+            <column name="ApellidoMaterno">RL</column>
+            <column name="CURP">AAAA12345678912345</column>
+            <column name="NSS">2147483647</column>
+            <column name="FechaInicio">2020-02-12</column>
+            <column name="FechaFinal">0000-00-00</column>
+            <column name="FechaNacimiento">2020-02-06</column>
+            <column name="LN_Ciudad">Queretaro</column>
+            <column name="LN_Estado">Queretaro</column>
+            <column name="LN_Pais">México</column>
+            <column name="D_Calle">callepPrueba</column>
+            <column name="D_NoInterior">42</column>
+            <column name="D_NoExterior">10</column>
+            <column name="D_Colonia">Colinas</column>
+            <column name="D_CP">76900</column>
+            <column name="D_Ciudad">CORREGIDORA</column>
+            <column name="D_Estado">QUERETARO</column>
+            <column name="D_Pais">México</column>
+        </table>
+        <table name="employeeregistration">
+            <column name="Id_employee">12</column>
+            <column name="Nombre1">Diego</column>
+            <column name="Nombre2">Diego</column>
+            <column name="ApellidoPaterno">Paniagua</column>
+            <column name="ApellidoMaterno">RL</column>
+            <column name="CURP">AAAA12345678912345</column>
+            <column name="NSS">2147483647</column>
+            <column name="FechaInicio">2020-02-12</column>
+            <column name="FechaFinal">2020-02-06</column>
+            <column name="FechaNacimiento">2020-02-06</column>
+            <column name="LN_Ciudad">Queretaro</column>
+            <column name="LN_Estado">Queretaro</column>
+            <column name="LN_Pais">México</column>
+            <column name="D_Calle">callepPrueba</column>
+            <column name="D_NoInterior">42</column>
+            <column name="D_NoExterior">10</column>
+            <column name="D_Colonia">Colinas</column>
+            <column name="D_CP">76900</column>
+            <column name="D_Ciudad">CORREGIDORA</column>
+            <column name="D_Estado">QUERETARO</column>
+            <column name="D_Pais">México</column>
+        </table>
+        <table name="employeeregistration">
+            <column name="Id_employee">13</column>
+            <column name="Nombre1">Diego</column>
+            <column name="Nombre2">Diego</column>
+            <column name="ApellidoPaterno">Paniagua</column>
+            <column name="ApellidoMaterno">RL</column>
+            <column name="CURP">AAAA12345678912345</column>
+            <column name="NSS">2147483647</column>
+            <column name="FechaInicio">2020-02-12</column>
+            <column name="FechaFinal">0000-00-00</column>
+            <column name="FechaNacimiento">2020-02-06</column>
+            <column name="LN_Ciudad">Queretaro</column>
+            <column name="LN_Estado">Queretaro</column>
+            <column name="LN_Pais">México</column>
+            <column name="D_Calle">callepPrueba</column>
+            <column name="D_NoInterior">42</column>
+            <column name="D_NoExterior">10</column>
+            <column name="D_Colonia">Colinas</column>
+            <column name="D_CP">76900</column>
+            <column name="D_Ciudad">CORREGIDORA</column>
+            <column name="D_Estado">QUERETARO</column>
+            <column name="D_Pais">México</column>
+        </table>
+    </database>
+</pma_xml_export>
